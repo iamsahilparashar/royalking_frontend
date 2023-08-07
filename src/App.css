@@ -1,0 +1,177 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#eyeSignSignup{
+  padding: .375rem .75rem;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  cursor: pointer; 
+}
+#eyeSignLogin{
+  padding: .375rem .75rem;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  cursor: pointer;
+}
+.features{
+  background-color: rgb(32, 29, 29);
+  border-radius:10px;
+  border: 2px solid black ;
+}
+.card{
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 4px 4px rgb(141, 206, 38);
+  /* background-color: #bdb8b8; */
+  background-image: linear-gradient(green ,white ,orange);
+}
+body{
+  background-color: black;
+}
+.home{
+  margin-top:-4%;
+}
+.card-title{
+  text-align:  center;
+  font-size: 27px;
+}
+.fab{
+  height: 20px;
+  width: 20px;
+  color:white;
+}
+.hr{
+  color:white;
+  background-color :white;
+}
+.userBtn{
+  color: black;
+  border:2px solid white;
+  background-image: linear-gradient(white ,black);
+  font-size: 20px;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+.userBtn:hover{
+  border:2px solid black;
+  font-size: 20px;
+
+}
+.about{
+  color: white;
+  font-size: 25px;
+  background-image: url(./material/AboutBg2.jpg);
+  background-size: cover;
+}
+.login{
+  color: white;
+}
+.signup{
+  color: white;
+}
+.userDetails{
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  height: 100%;
+  width: 120%;
+  box-shadow: 3px 3px 3px white , -3px -3px 3px white;
+  background-image: url(./material/userBg.jpg);
+}
+.userDetails h4{
+  line-height: 10px;
+}
+.makeTrans{
+  color: white;
+  margin-left: 15%;
+  float: right;
+  width: 40%;
+  margin-top: -1%;
+  background-image: url(./material/makeTranBg.jpg);
+}
+.mainBtn{
+  margin-top: 5%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#details{
+  color: rgb(156, 30, 30);
+  font-weight: bold;
+}
+.logoBank{
+  font-size: 6rem;
+  position: absolute;
+  margin-left: 27%;
+  margin-top: -70vh;
+  font-weight:  bold;
+}
+.fetchTrans h1{
+  color: rgb(141, 206, 38);
+}
+.cardTrans{
+  width: 90% ;
+  background-image: url('./material/cardBg2.jpg');
+  border : 2px solid white;
+  box-shadow: 2px 2px 2px white;
+  color: white;
+  font-size:  20px;
+
+}
+.card span{
+  font-weight:  bold;
+  color: rgb(141, 206, 38);
+  /* text-decoration: underline; */
+}
+
+.navbar{
+  background-image: url(./material/NavbarBg.jpg);
+  font-weight:bolder;
+  font-size : 20px;
+}
+.modal-content{
+  background-color:black;
+  color: green;
+  border:  2px solid white;
+  font-size: 20px;
+}
