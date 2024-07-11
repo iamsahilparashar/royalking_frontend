@@ -1,8 +1,8 @@
 # royalking_frontend
 
-#Description
+# Description
 Simulates real-life bank operations
 
-#Techstack
+# Techstack
 >Implemented JWT authentication, with data stored on MongoDB
 >Tech stack: MongoDB, React.js, Node.js, Express.js
