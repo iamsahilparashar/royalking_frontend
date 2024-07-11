@@ -100,7 +100,7 @@ const Home = () => {
                     <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-1 border-top" >
                         <div className="col-md-4 d-flex align-items-center">
                             <Link to="/" className="me-2 mb-md-0 text-muted text-decoration-none lh-1"></Link>
-                            <span className="text-dark">© 2023 Sahil Parashar | NIT KURUKSHETRA</span>
+                            <span className="text-dark">© 2024 Sahil Parashar | NIT KURUKSHETRA</span>
                         </div>
                         <ul className="nav col-md-4 justify-content-end list-unstyled d-flex" >
                             <li className="ms-3 text-dark"><a href="https://www.linkedin.com/in/sahil2381" target="_blank" rel="noopener noreferrer" ><i className="fab fa-linkedin" style={{ color: "black" }} ></i></a></li>

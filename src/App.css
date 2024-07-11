@@ -101,9 +101,9 @@ body{
 }
 .about{
   color: black;
-  font-size: 25px;
-/*   background-image: url(./material/AboutBg2.jpg); */
+  font-size: 20px;
   background-size: cover;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .userDetails{
   color: black;
@@ -136,11 +136,11 @@ body{
   font-weight: bold;
 }
 .logoBank{
-  font-size: 6rem;
-  position: absolute;
-  margin-left: 27%;
-  margin-top: -70vh;
-  font-weight:  bold;
+  color: black;
+  text-align: center;
+  font-size: xxx-large;
+  font-weight: 600;
+  margin: auto auto;
 }
 .left-arrow{
   width: 100px;
