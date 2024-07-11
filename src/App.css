@@ -66,8 +66,8 @@
   /* background-color: #bdb8b8; */
   background-image: linear-gradient(green ,white ,orange);
 }
-body{
-  background-color: black;
+body{  
+    color:black;
 }
 .home{
   margin-top:-4%;
@@ -83,7 +83,7 @@ body{
 }
 .hr{
   color:white;
-  background-color :white;
+  background-color:black;
 }
 .userBtn{
   color: black;
@@ -98,31 +98,25 @@ body{
 
 }
 .about{
-  color: white;
+  color: black;
   font-size: 25px;
 /*   background-image: url(./material/AboutBg2.jpg); */
   background-size: cover;
 }
-.login{
-  color: white;
-}
-.signup{
-  color: white;
-}
 .userDetails{
-  color: white;
+  color: black;
   border: 2px solid white;
   border-radius: 10px;
   height: 100%;
   width: 120%;
   box-shadow: 3px 3px 3px white , -3px -3px 3px white;
-  background-image: url(./material/userBg.jpg);
+/*   background-image: url(./material/userBg.jpg); */
 }
 .userDetails h4{
   line-height: 10px;
 }
 .makeTrans{
-  color: white;
+  color: black;
   margin-left: 15%;
   float: right;
   width: 40%;
@@ -151,12 +145,11 @@ body{
 }
 .cardTrans{
   width: 90% ;
-  background-image: url('./material/cardBg2.jpg');
   border : 2px solid white;
   box-shadow: 2px 2px 2px white;
   color: white;
-  font-size:  20px;
-
+  font-size:  20px; 
+  background-color:black;
 }
 .card span{
   font-weight:  bold;
@@ -165,7 +158,6 @@ body{
 }
 
 .navbar{
-  background-image: url(./material/NavbarBg.jpg);
   font-weight:bolder;
   font-size : 20px;
 }
