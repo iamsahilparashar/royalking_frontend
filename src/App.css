@@ -100,7 +100,7 @@ body{
 .about{
   color: white;
   font-size: 25px;
-  background-image: url(./material/AboutBg2.jpg);
+/*   background-image: url(./material/AboutBg2.jpg); */
   background-size: cover;
 }
 .login{
@@ -127,7 +127,7 @@ body{
   float: right;
   width: 40%;
   margin-top: -1%;
-  background-image: url(./material/makeTranBg.jpg);
+/*   background-image: url(./material/makeTranBg.jpg); */
 }
 .mainBtn{
   margin-top: 5%;
