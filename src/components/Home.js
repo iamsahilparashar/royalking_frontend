@@ -64,7 +64,7 @@ const Home = () => {
                     <div className="row my-3">
                         <div className="col-md-3 my-1">
                             <div className="card">
-                                <img src= {creditCard} className="card-img-top" style={{ height: "70px", width: "80px", margin: "auto" }} alt="..." />
+                                <img src={creditCard} className="card-img-top" style={{ height: "70px", width: "80px", margin: "auto" }} alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Credit Cards</h5>
                                 </div>
@@ -97,15 +97,15 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="container">
-                    <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-1 border-top">
+                    <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-1 border-top" >
                         <div className="col-md-4 d-flex align-items-center">
                             <Link to="/" className="me-2 mb-md-0 text-muted text-decoration-none lh-1"></Link>
-                            <span className="text-muted">© 2023 Sahil Parashar | NIT KURUKSHETRA</span>
+                            <span className="text-dark">© 2023 Sahil Parashar | NIT KURUKSHETRA</span>
                         </div>
-                        <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-                            <li className="ms-3"><a href="https://www.linkedin.com/in/sahil2381" target="_blank" rel="noopener noreferrer" ><i className="fab fa-linkedin"></i></a></li>
-                            <li className="ms-3"><a href="https://github.com/iamsahilparashar" target="_blank" rel="noopener noreferrer" ><i className="fab fa-github-square"></i></a></li>
-                            <li className="ms-3"><a href="https://www.instagram.com/_sahil.sharma1/" target="_blank" rel="noopener noreferrer" ><i className="fab fa-instagram"></i></a></li>
+                        <ul className="nav col-md-4 justify-content-end list-unstyled d-flex" >
+                            <li className="ms-3 text-dark"><a href="https://www.linkedin.com/in/sahil2381" target="_blank" rel="noopener noreferrer" ><i className="fab fa-linkedin" style={{ color: "black" }} ></i></a></li>
+                            <li className="ms-3 text-dark"><a href="https://github.com/iamsahilparashar" target="_blank" rel="noopener noreferrer" ><i className="fab fa-github-square" style={{ color: "black" }} ></i></a></li>
+                            <li className="ms-3 text-dark"><a href="https://www.instagram.com/_sahil.sharma1/" target="_blank" rel="noopener noreferrer" ><i className="fab fa-instagram" style={{ color: "black" }} ></i></a></li>
                         </ul>
                     </footer>
                 </div>
