@@ -28,12 +28,12 @@ const UserDetails = (props) => {
             <h3> <span id="details"> Email :  </span>{details.email}</h3> <br />
             <h3> <span id="details"> Created On :  </span>{details.date}</h3> <br />
 
-            <div className="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabIndex="-1">
+            <div className="modal" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabIndex="-1">
                 <div className="modal-dialog modal-dialog-centered">
                     <div className="modal-content">
                         <div className="modal-header">
                             <h5 className="modal-title" id="exampleModalToggleLabel" style={{ fontFamily: `'Carattere', cursive`, fontSize: "27px" }}><i className="fas fa-university"></i>&nbsp;&nbsp;Royal King of India</h5>
-                            <button type="button" className="btn-close " data-bs-dismiss="modal" aria-label="Close" style={{ backgroundColor: 'green' }}></button>
+                            <button type="button" className="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body">
                             <form onSubmit={handlebalance}>
@@ -42,7 +42,7 @@ const UserDetails = (props) => {
                                     <input type="number" className="form-control" id="amountAdded" name="amountAdded" min="0" required />
                                 </div>
                                 <div className="d-grid gap-2 modal-footer">
-                                    <button type="submit" className="btn " data-bs-toggle="modal" to="#exampleModalToggle" style={{ backgroundColor: 'green', fontSize: "20px", fontWeight: 'bold', color: 'black' }}>Deposit</button>
+                                    <button type="submit" className="btn depositBtn" data-bs-toggle="modal" to="#exampleModalToggle">Deposit</button>
                                 </div>
                             </form>
                         </div>
